@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S6IwnpZfndT9ikDBiW8/N3RRDAfRiP6Nx4a0dkfwOH7630wzTr4c+MGYgrP910D3GG4oqv9RXQyK0J8fP/lNRg==",
+  "dgSpecHash": "ysnVV2mzkCC2OWI6xTDZJ4JedYChbEtxrkR00h6nN3/jfEMCqp7JLisqkTVDs3JpL5FPmx2FcyBL9ritY7cu7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.Api\\CampaignManagement.Api.csproj",
+  "projectFilePath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Api\\CampaignManagement.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\canka\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\canka\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.Api\\CampaignManagement.Api.csproj": {}
+    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Api\\CampaignManagement.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.Api\\CampaignManagement.Api.csproj": {
+    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Api\\CampaignManagement.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.Api\\CampaignManagement.Api.csproj",
+        "projectUniqueName": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Api\\CampaignManagement.Api.csproj",
         "projectName": "CampaignManagement.Api",
-        "projectPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.Api\\CampaignManagement.Api.csproj",
+        "projectPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Api\\CampaignManagement.Api.csproj",
         "packagesPath": "C:\\Users\\canka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.Api\\obj\\",
+        "outputPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

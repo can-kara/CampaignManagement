@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj": {}
+    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj": {
+    "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj",
         "projectName": "CampaignManagement.UnitTest",
-        "projectPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj",
+        "projectPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj",
         "packagesPath": "C:\\Users\\canka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

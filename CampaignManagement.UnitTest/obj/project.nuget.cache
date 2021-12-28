@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QItKcEFxKOTn0HDWuuNcow+EZs45qA54uGakymlYNO+8CMIb7LacCwEmmCfbXxLDTFvlTCIo77yMMxFAbPClaQ==",
+  "dgSpecHash": "lYHHhRSjVP5+ZXiAfiZODd5zSkYe92bKywT5HZEF4jeEriiHrlrbFkYRnvAoepNhnKJaE4Q+qC881UM6uWLt4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement-\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj",
+  "projectFilePath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.UnitTest\\CampaignManagement.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\canka\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\canka\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

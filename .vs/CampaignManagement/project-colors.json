@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "54af0902-7571-4287-ac06-c983d29d60ae": {
+      "ProjectGuid": "54af0902-7571-4287-ac06-c983d29d60ae",
+      "DisplayName": "CampaignManagement.Api",
+      "ColorIndex": 0
+    },
+    "89d6d18c-0635-4dcc-be3a-ad5ecfbe193c": {
+      "ProjectGuid": "89d6d18c-0635-4dcc-be3a-ad5ecfbe193c",
+      "DisplayName": "CampaignManagement.Domain",
+      "ColorIndex": 1
+    },
+    "3dff153b-b0f4-4a1f-b314-6dddc5a2907a": {
+      "ProjectGuid": "3dff153b-b0f4-4a1f-b314-6dddc5a2907a",
+      "DisplayName": "CampaignManagement.Infrastructure",
+      "ColorIndex": 2
+    },
+    "92d2cda3-ae81-4dd0-8ae2-4794061b196a": {
+      "ProjectGuid": "92d2cda3-ae81-4dd0-8ae2-4794061b196a",
+      "DisplayName": "CampaignManagement.Application",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

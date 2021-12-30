@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IOuQAT0lSbWkfQbpeoLUya5hBqipbpQQ+Irs06D/dA9dm81BNmNy/H2atpwV2LebZ0JfMmp/WMblNxDO4uNWYA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Application\\CampaignManagement.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\canka\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

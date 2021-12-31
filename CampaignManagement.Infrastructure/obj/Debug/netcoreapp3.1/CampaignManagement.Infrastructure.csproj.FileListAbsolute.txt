@@ -1,0 +1,10 @@
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\bin\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.deps.json
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\bin\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.dll
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\bin\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.pdb
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.dll
+C:\Users\canka\Desktop\Test\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.pdb

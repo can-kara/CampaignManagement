@@ -1,5 +1,6 @@
 ﻿using CampaignManagement.Domain.Events;
 using MediatR;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -10,7 +11,7 @@ namespace CampaignManagement.Application.DomainEventHandlers
         //Order Create edilmeden birşeyler create edilecek ise buradan yapılabilinir. Repository constructure injection yapılarak
         public Task Handle(OrderStartedDomainEvent notification, CancellationToken cancellationToken)
         {
-            if (notification.Order.Id == 0)
+            if (notification.Order.Id == Guid.Empty)
             {
                 return Task.CompletedTask;
             }

@@ -45,7 +45,17 @@
       "ProjectGuid": "9a4f8309-4b06-443a-b42c-c820d415d70c",
       "DisplayName": "CampaignManagement.Api",
       "ColorIndex": 7
+    },
+    "0614cace-fdc8-440b-80e1-c51426d0c8c0": {
+      "ProjectGuid": "0614cace-fdc8-440b-80e1-c51426d0c8c0",
+      "DisplayName": "CampaignManagement.Infrastructure",
+      "ColorIndex": 8
+    },
+    "24d34144-ff6a-4cd6-947e-a661a650e20f": {
+      "ProjectGuid": "24d34144-ff6a-4cd6-947e-a661a650e20f",
+      "DisplayName": "CampaignManagement.UnitTest",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }

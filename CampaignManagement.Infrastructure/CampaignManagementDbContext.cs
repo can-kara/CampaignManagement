@@ -3,7 +3,7 @@ using CampaignManagement.Domain.AggregateModels.OrderModels;
 using CampaignManagement.Domain.AggregateModels.ProductModels;
 using Microsoft.EntityFrameworkCore;
 
-namespace AppDbContext.Domain.SeedWork.CampaignManagementDbContext
+namespace CampaignManagement.Infrastructure
 {
     public class CampaignManagementDbContext : DbContext
     {

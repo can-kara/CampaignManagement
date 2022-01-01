@@ -34,6 +34,7 @@
           "CampaignManagement.Application": "1.0.0",
           "CampaignManagement.Domain": "1.0.0",
           "CampaignManagement.Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -313,6 +314,14 @@
           "CampaignManagement.Api.dll": {}
         }
       },
+      "Humanizer.Core/2.8.26": {
+        "runtime": {
+          "lib/netstandard2.0/Humanizer.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
       "MediatR/9.0.0": {
         "runtime": {
           "lib/netstandard2.1/MediatR.dll": {
@@ -324,7 +333,7 @@
           "lib/netstandard2.1/MediatR.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/2.0.1": {
         "dependencies": {
           "Microsoft.Data.SqlClient.SNI.runtime": "2.0.1",
@@ -439,6 +448,19 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/5.0.13": {},
+      "Microsoft.EntityFrameworkCore.Design/5.0.13": {
+        "dependencies": {
+          "Humanizer.Core": "2.8.26",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.13"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "5.0.13.0",
+            "fileVersion": "5.0.1321.56013"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/5.0.13": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.13",
@@ -597,7 +619,7 @@
       },
       "Microsoft.Identity.Client/4.14.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Net.NameResolution": "4.3.0",
           "System.Private.Uri": "4.3.2",
@@ -702,7 +724,7 @@
       },
       "Newtonsoft.Json/10.0.1": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "System.Collections": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
@@ -1409,7 +1431,8 @@
       "CampaignManagement.Infrastructure/1.0.0": {
         "dependencies": {
           "CampaignManagement.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.13"
+          "Microsoft.EntityFrameworkCore": "5.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
         },
         "runtime": {
           "CampaignManagement.Infrastructure.dll": {}
@@ -3046,6 +3069,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Humanizer.Core/2.8.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
+      "path": "humanizer.core/2.8.26",
+      "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
     "MediatR/9.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3053,12 +3083,12 @@
       "path": "mediatr/9.0.0",
       "hashPath": "mediatr.9.0.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/2.0.1": {
       "type": "package",
@@ -3094,6 +3124,13 @@
       "sha512": "sha512-torTg+dQC/vOlFI5FZsRmOAA5pKtr8cJNJ5SWsl0RVYmhb5I7s/V3T1NsIzSqJTYzGBssHl5mFbiBODeBdQpnQ==",
       "path": "microsoft.entityframeworkcore.analyzers/5.0.13",
       "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.13.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Design/5.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T9Qq5RebYkx2EEU7ahHNediObrIE5dsRKt6mTkVwqrVqX1Kp+/HD02T1ZMdI1H62WLHH4QIdcCfjgsKgenTQFg==",
+      "path": "microsoft.entityframeworkcore.design/5.0.13",
+      "hashPath": "microsoft.entityframeworkcore.design.5.0.13.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.13": {
       "type": "package",

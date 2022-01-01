@@ -1,4 +1,4 @@
-using AppDbContext.Domain.SeedWork.CampaignManagementDbContext;
+using CampaignManagement.Infrastructure;
 using CampaignManagement.Application.Order;
 using CampaignManagement.Application.Product;
 using Microsoft.AspNetCore.Builder;
@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using CampaignManagement.Domain.SeedWork;
+using CampaignManagement.Domain.SeedWork.Repository;
 
 namespace CampaignManagement.Api
 {
@@ -27,6 +29,7 @@ namespace CampaignManagement.Api
             services.AddDbContext<CampaignManagementDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DatabaseConnection")));
 
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IProductService, ProductService>();
         }

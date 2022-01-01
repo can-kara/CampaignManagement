@@ -1,4 +1,4 @@
-﻿using AppDbContext.Domain.SeedWork.CampaignManagementDbContext;
+﻿using CampaignManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;

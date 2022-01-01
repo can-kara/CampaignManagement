@@ -21,3 +21,6 @@ C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagemen
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Infrastructure\bin\Debug\netcoreapp3.1\CampaignManagement.Domain.dll
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Infrastructure\bin\Debug\netcoreapp3.1\CampaignManagement.Domain.pdb
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.csproj.CopyComplete
+C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Infrastructure\bin\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.runtimeconfig.json
+C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Infrastructure\bin\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.runtimeconfig.dev.json
+C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Infrastructure\obj\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.genruntimeconfig.cache

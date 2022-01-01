@@ -84,3 +84,5 @@ C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagemen
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Api\bin\Debug\netcoreapp3.1\CampaignManagement.Infrastructure.pdb
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Api\bin\Debug\netcoreapp3.1\CampaignManagement.Application.dll
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Api\bin\Debug\netcoreapp3.1\CampaignManagement.Application.pdb
+C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Api\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

@@ -11,5 +11,6 @@ namespace CampaignManagement.Domain.SeedWork
         Task Create(TEntity entity);
         Task Update(TEntity entity);
         Task Delete(Guid id);
+        Task SaveChangesAsync();
     }
 }

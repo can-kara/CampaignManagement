@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CampaignManagement.Domain\CampaignManagement.Domain.csproj" />
+    <ProjectReference Include="..\CampaignManagement.Infrastructure\CampaignManagement.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,18 +6,18 @@ namespace CampaignManagement.Domain.SeedWork
 {
     public abstract class ValueObject
     {
-        protected static bool EqualOperator(ValueObject left, ValueObject right)
+        protected static bool EqualOperator(ValueObject obj1, ValueObject obj2)
         {
-            if (ReferenceEquals(left, null) ^ ReferenceEquals(right, null))
+            if (ReferenceEquals(obj1, null) ^ ReferenceEquals(obj2, null))
             {
                 return false;
             }
-            return ReferenceEquals(left, null) || left.Equals(right);
+            return ReferenceEquals(obj1, null) || obj1.Equals(obj2);
         }
 
-        protected static bool NotEqualOperator(ValueObject left, ValueObject right)
+        protected static bool NotEqualOperator(ValueObject obj1, ValueObject obj2)
         {
-            return !(EqualOperator(left, right));
+            return !(EqualOperator(obj1, obj2));
         }
 
         protected abstract IEnumerable<object> GetEqualityComponents();

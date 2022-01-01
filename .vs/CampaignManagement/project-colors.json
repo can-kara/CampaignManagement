@@ -30,7 +30,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "597854c9-bbde-4700-869d-1beba128f788": {
+      "ProjectGuid": "597854c9-bbde-4700-869d-1beba128f788",
+      "DisplayName": "CampaignManagement.Domain",
+      "ColorIndex": 5
+    },
+    "becf9ac9-2a13-4ee4-b4d8-00592321309a": {
+      "ProjectGuid": "becf9ac9-2a13-4ee4-b4d8-00592321309a",
+      "DisplayName": "CampaignManagement.Application",
+      "ColorIndex": 6
+    },
+    "9a4f8309-4b06-443a-b42c-c820d415d70c": {
+      "ProjectGuid": "9a4f8309-4b06-443a-b42c-c820d415d70c",
+      "DisplayName": "CampaignManagement.Api",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 8
 }

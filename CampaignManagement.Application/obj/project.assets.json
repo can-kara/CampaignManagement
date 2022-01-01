@@ -184,6 +184,20 @@
         "runtime": {
           "bin/placeholder/CampaignManagement.Domain.dll": {}
         }
+      },
+      "CampaignManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CampaignManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.13"
+        },
+        "compile": {
+          "bin/placeholder/CampaignManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampaignManagement.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -566,11 +580,17 @@
       "type": "project",
       "path": "../CampaignManagement.Domain/CampaignManagement.Domain.csproj",
       "msbuildProject": "../CampaignManagement.Domain/CampaignManagement.Domain.csproj"
+    },
+    "CampaignManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CampaignManagement.Infrastructure/CampaignManagement.Infrastructure.csproj",
+      "msbuildProject": "../CampaignManagement.Infrastructure/CampaignManagement.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CampaignManagement.Domain >= 1.0.0"
+      "CampaignManagement.Domain >= 1.0.0",
+      "CampaignManagement.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -607,6 +627,9 @@
           "projectReferences": {
             "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Domain\\CampaignManagement.Domain.csproj": {
               "projectPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Domain\\CampaignManagement.Domain.csproj"
+            },
+            "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Infrastructure\\CampaignManagement.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\canka\\Desktop\\Projects\\Hepsiburada\\CampaignManagement\\CampaignManagement.Infrastructure\\CampaignManagement.Infrastructure.csproj"
             }
           }
         }

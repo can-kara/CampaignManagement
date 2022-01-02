@@ -11,7 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignManagement.Domain",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignManagement.Infrastructure", "CampaignManagement.Infrastructure\CampaignManagement.Infrastructure.csproj", "{0614CACE-FDC8-440B-80E1-C51426D0C8C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignManagement.UnitTest", "CampaignManagement.UnitTest\CampaignManagement.UnitTest.csproj", "{9962FD08-A3A6-42D2-ABAE-CA7626A6197F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignManagement.UnitTest", "CampaignManagement.UnitTest\CampaignManagement.UnitTest.csproj", "{9962FD08-A3A6-42D2-ABAE-CA7626A6197F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectAbout", "ProjectAbout", "{A7B1ED27-1B4A-44BC-AC99-835AE372FE9B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\ProjectAbout.txt = ..\..\..\ProjectAbout.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,18 +8,20 @@ namespace CampaignManagement.Domain.AggregateModels.OrderModels
     public class Order : BaseEntity, IAggregateRoot
     {
         public Guid ProductId { get; private set; }
-        
+
         [ForeignKey("ProductId")]
-        public  Product Product { get; private set; }
+        public Product Product { get; private set; }
+        public string ProductCode { get; private set; }
         public int Quantity { get; private set; }
 
-        public Order(Guid productId, int quantity)
+        public Order(Guid productId, string productCode, int quantity)
         {
             if (productId == Guid.Empty) { throw new ArgumentNullException(nameof(productId)); }
             if (quantity == 0) { throw new ArgumentNullException(nameof(quantity)); }
 
             ProductId = productId;
             Quantity = quantity;
+            ProductCode = productCode;
         }
     }
 }

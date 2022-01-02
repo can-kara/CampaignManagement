@@ -17,3 +17,4 @@ C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagemen
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Domain\obj\Debug\netcoreapp3.1\CampaignManagement.Domain.csproj.CoreCompileInputs.cache
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Domain\obj\Debug\netcoreapp3.1\CampaignManagement.Domain.dll
 C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Domain\obj\Debug\netcoreapp3.1\CampaignManagement.Domain.pdb
+C:\Users\canka\Desktop\Projects\Hepsiburada\CampaignManagement\CampaignManagement.Domain\obj\Debug\netcoreapp3.1\CampaignManagement.Domain.csproj.AssemblyReference.cache

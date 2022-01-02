@@ -21,8 +21,4 @@
     <ProjectReference Include="..\CampaignManagement.Domain\CampaignManagement.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="AppDbContext\" />
-  </ItemGroup>
-
 </Project>

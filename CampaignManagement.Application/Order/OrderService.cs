@@ -2,6 +2,7 @@
 using CampaignManagement.Domain.AggregateModels.OrderModels.ReslponseModel;
 using CampaignManagement.Domain.SeedWork;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -21,15 +22,22 @@ namespace CampaignManagement.Application.Order
 
         public async Task<OrderCreateResponseModel> Create(OrderCreateRequestModel model)
         {
-            if (!string.IsNullOrEmpty(model.ProductCode))
-            {
-                var productId = await _productRepository.GetAll().Where(x => x.Code.ToLower().Equals(model.ProductCode.ToLower())).Select(x => x.Id).FirstOrDefaultAsync();
-                var order = new Domain.AggregateModels.OrderModels.Order(productId, model.Quantity);
-                await _orderRepository.Create(order);
-                return new OrderCreateResponseModel { Id = order.Id, Quantity = model.Quantity, ProductCode = model.ProductCode };
-            }
+            if (string.IsNullOrEmpty(model.ProductCode)) throw new ArgumentNullException(nameof(model.ProductCode));
 
-            return null;
+            Guid productId = await GetProductIdByCode(model.ProductCode);
+
+            if (productId == Guid.Empty) throw new Exception("No records found by product code");
+
+            var order = new Domain.AggregateModels.OrderModels.Order(productId, model.ProductCode, model.Quantity);
+            await _orderRepository.Create(order);
+            await _orderRepository.SaveChangesAsync();
+
+            return new OrderCreateResponseModel { Id = order.Id, Quantity = model.Quantity, ProductCode = model.ProductCode };
+        }
+
+        private async Task<Guid> GetProductIdByCode(string productCode)
+        {
+            return await _productRepository.GetAll().Where(x => x.Code.ToLower().Equals(productCode.ToLower())).Select(x => x.Id).FirstOrDefaultAsync();
         }
     }
 }

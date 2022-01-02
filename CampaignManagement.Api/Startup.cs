@@ -1,14 +1,16 @@
-using CampaignManagement.Infrastructure;
+using CampaignManagement.Application.Campaign;
 using CampaignManagement.Application.Order;
 using CampaignManagement.Application.Product;
+using CampaignManagement.Application.ProductCampaign;
+using CampaignManagement.Domain.SeedWork;
+using CampaignManagement.Domain.SeedWork.Repository;
+using CampaignManagement.Infrastructure.AddDbContext;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using CampaignManagement.Domain.SeedWork;
-using CampaignManagement.Domain.SeedWork.Repository;
 
 namespace CampaignManagement.Api
 {
@@ -32,6 +34,8 @@ namespace CampaignManagement.Api
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICampaignService, CampaignService>();
+            services.AddScoped<IProductCampaignService, ProductCampaignService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

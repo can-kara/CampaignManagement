@@ -11,7 +11,8 @@ namespace CampaignManagement.Domain.AggregateModels.ProductModels
 
         public Product(string code, decimal price, int stock)
         {
-            if (stock == 0) throw new Exception("Stock can not me 0");
+            if (stock == 0) throw new Exception("Stock can not be 0");
+            if(string.IsNullOrEmpty(code)) throw new ArgumentNullException("code");
 
             Code = code;
             Price = price;

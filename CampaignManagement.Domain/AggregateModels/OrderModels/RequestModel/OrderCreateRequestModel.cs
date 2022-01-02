@@ -8,6 +8,8 @@ namespace CampaignManagement.Domain.AggregateModels.OrderModels.RequestModel
         public string ProductCode { get; set; }
         public int Quantity { get; set; }
 
+        public OrderCreateRequestModel() { }
+
         public OrderCreateRequestModel(string productCode, int quantity)
         {
             ProductCode = productCode;

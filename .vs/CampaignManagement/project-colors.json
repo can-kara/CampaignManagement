@@ -55,7 +55,32 @@
       "ProjectGuid": "24d34144-ff6a-4cd6-947e-a661a650e20f",
       "DisplayName": "CampaignManagement.UnitTest",
       "ColorIndex": 9
+    },
+    "1ad2f4f8-7ce7-4c88-a0bd-22143db3bad6": {
+      "ProjectGuid": "1ad2f4f8-7ce7-4c88-a0bd-22143db3bad6",
+      "DisplayName": "CampaignManagement.UnitTest",
+      "ColorIndex": 10
+    },
+    "f1fa11a7-3bde-429f-995c-b8ef326646bc": {
+      "ProjectGuid": "f1fa11a7-3bde-429f-995c-b8ef326646bc",
+      "DisplayName": "TestProject1",
+      "ColorIndex": 11
+    },
+    "eee19ee8-c336-402e-bcaa-88ee91cea0fb": {
+      "ProjectGuid": "eee19ee8-c336-402e-bcaa-88ee91cea0fb",
+      "DisplayName": "CampaignManagement.UnitTest",
+      "ColorIndex": 12
+    },
+    "368d24ee-6241-4cea-b03c-42517983b8f6": {
+      "ProjectGuid": "368d24ee-6241-4cea-b03c-42517983b8f6",
+      "DisplayName": "CampaignManagement.UnitTest",
+      "ColorIndex": 13
+    },
+    "9962fd08-a3a6-42d2-abae-ca7626a6197f": {
+      "ProjectGuid": "9962fd08-a3a6-42d2-abae-ca7626a6197f",
+      "DisplayName": "CampaignManagement.UnitTest",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 15
 }

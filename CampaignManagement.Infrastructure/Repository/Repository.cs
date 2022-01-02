@@ -1,4 +1,4 @@
-﻿using CampaignManagement.Infrastructure;
+﻿using CampaignManagement.Infrastructure.AddDbContext;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
@@ -23,6 +23,12 @@ namespace CampaignManagement.Domain.SeedWork.Repository
         public async Task Delete(Guid id)
         {
             var entity = await GetById(id);
+            _dbContext.Set<TEntity>().Remove(entity);
+            await Task.CompletedTask;
+        }
+
+        public async Task Delete(TEntity entity)
+        {
             _dbContext.Set<TEntity>().Remove(entity);
             await Task.CompletedTask;
         }

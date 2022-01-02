@@ -7,21 +7,24 @@ namespace CampaignManagement.Domain.AggregateModels.CampaignModels
 {
     public class Campaign : BaseEntity, IAggregateRoot
     {
-        public string Name { get; set; }
-        public Guid ProductId { get; set; }
+        public string Name { get; private set; }
+        public Guid ProductId { get; private set; }
 
         [ForeignKey("ProductId")]
-        public Product Product { get; private set; }
-        public int Duraction { get; set; }
-        public int PriceManipulationLimit { get; set; }
-        public int TargetSalesCount { get; set; }
+        private Product Product { get; set; }
+        public string ProdutCode { get; private set; }
+        public int Duraction { get; private set; }
+        public int PriceManipulationLimit { get; private set; }
+        public int TargetSalesCount { get; private set; }
 
-        public Campaign(string name, Guid productId, int duraction, int priceManipulationLimit, int targetSalesCount)
+        public Campaign(string name, Guid productId, string produtCode, int duraction, int priceManipulationLimit, int targetSalesCount)
         {
-            if(productId==Guid.Empty) throw new ArgumentNullException(nameof(productId));
+            if (productId == Guid.Empty) throw new ArgumentNullException(nameof(productId));
 
             Name = name;
             ProductId = productId;
+            //Product = product;
+            ProdutCode = produtCode;
             Duraction = duraction;
             PriceManipulationLimit = priceManipulationLimit;
             TargetSalesCount = targetSalesCount;
